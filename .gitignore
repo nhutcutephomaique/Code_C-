@@ -1,0 +1,37 @@
+# Exclude main.cs
+main.cs
+
+# Build directories
+bin/
+obj/
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# Build outputs
+*.dll
+*.exe
+*.pdb
+*.nuget
+
+# NuGet
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# IDE files
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
