@@ -6,6 +6,12 @@
     <RootNamespace>C_</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="main.cs" />
+    <Compile Include="C#_BASIC\46.cs" />
+  </ItemGroup>
 
 </Project>

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 namespace CSharpBasic;
 
-public class TreeNode
+public class TreeNodeExample36
 {
     public int Value;
-    public TreeNode? Left;
-    public TreeNode? Right;
+    public TreeNodeExample36? Left;
+    public TreeNodeExample36? Right;
 
-    public TreeNode(int value)
+    public TreeNodeExample36(int value)
     {
         Value = value;
         Left = null;
@@ -17,9 +17,9 @@ public class TreeNode
     }
 }
 
-public class BinaryTree
+public class BinaryTreeExample36
 {
-    public void InOrder(TreeNode? node, List<int> result)
+    public void InOrder(TreeNodeExample36? node, List<int> result)
     {
         if (node == null)
         {

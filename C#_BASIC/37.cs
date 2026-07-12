@@ -171,13 +171,13 @@ public class Queue<T>
     }
 }
 
-public class TreeNode
+public class TreeNodeExample37
 {
     public int Value;
-    public TreeNode? Left;
-    public TreeNode? Right;
+    public TreeNodeExample37? Left;
+    public TreeNodeExample37? Right;
 
-    public TreeNode(int value)
+    public TreeNodeExample37(int value)
     {
         Value = value;
         Left = null;
@@ -185,20 +185,20 @@ public class TreeNode
     }
 }
 
-public class BinarySearchTree
+public class BinarySearchTreeExample37
 {
-    public TreeNode? Root;
+    public TreeNodeExample37? Root;
 
     public void Insert(int value)
     {
         Root = Insert(Root, value);
     }
 
-    private TreeNode Insert(TreeNode? node, int value)
+    private TreeNodeExample37 Insert(TreeNodeExample37? node, int value)
     {
         if (node == null)
         {
-            return new TreeNode(value);
+            return new TreeNodeExample37(value);
         }
 
         if (value < node.Value)
@@ -218,7 +218,7 @@ public class BinarySearchTree
         return Search(Root, value);
     }
 
-    private bool Search(TreeNode? node, int value)
+    private bool Search(TreeNodeExample37? node, int value)
     {
         if (node == null)
         {
@@ -233,7 +233,7 @@ public class BinarySearchTree
         return value < node.Value ? Search(node.Left, value) : Search(node.Right, value);
     }
 
-    public void InOrder(TreeNode? node, List<int> result)
+    public void InOrder(TreeNodeExample37? node, List<int> result)
     {
         if (node == null)
         {
