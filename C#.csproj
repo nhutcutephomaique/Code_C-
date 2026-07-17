@@ -12,6 +12,7 @@
   <ItemGroup>
     <Compile Include="main.cs" />
     <Compile Include="C#_BASIC\46.cs" />
+    <Compile Include="C#_BASIC\50.cs" />
   </ItemGroup>
 
 </Project>
