@@ -14,6 +14,8 @@
     <Compile Include="C#_BASIC\46.cs" />
     <Compile Include="C#_BASIC\50.cs" />
     <Compile Include="C#_BASIC\51.cs" />
+    <Compile Include="C#_BASIC\52.cs" />
+    <Compile Include="C#_BASIC\53.cs" />
   </ItemGroup>
 
 </Project>
